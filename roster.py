@@ -1,3 +1,4 @@
+'''
 agents = ['alpha' , 'bravo' , 'charlie' , 'delta' , 'echo']
 print(agents)
 print (agents[::4])
@@ -24,3 +25,20 @@ new_agents=agents.copy()
 new_agents[0]='dave'
 print(new_agents)
 print(agents)
+'''
+
+#part2 
+
+numbers =[3, 1, 4, 1, 5, 9, 2, 6]
+print(sorted(numbers))
+print(numbers)
+numbers.sort ()
+print(numbers)
+
+#2
+a =[1, 2, 3]
+b =[4, 5, 6]
+a+b 
+print(a+b)
+a,b.extend
+print(a.extend(b))
