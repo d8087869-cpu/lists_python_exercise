@@ -42,3 +42,12 @@ a+b
 print(a+b)
 a,b.extend
 print(a.extend(b))
+#3
+items = ['x', 'y', 'z', 'x', 'y', 'x']
+print(items.count('x'))
+del items[0]
+del items[2]
+del items[-1]
+print(items)
+#4 
+data = [1, 2, 3, 4, 5]
