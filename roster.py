@@ -15,3 +15,6 @@ agents[1]=7
 print(agents)
 #8
 print(len(agents))
+scores=[42, 17, 95, 8, 61]
+print(max(scores))
+print(min(scores))
