@@ -18,3 +18,9 @@ print(len(agents))
 scores=[42, 17, 95, 8, 61]
 print(max(scores))
 print(min(scores))
+#10 
+
+new_agents=agents.copy()
+new_agents[0]='dave'
+print(new_agents)
+print(agents)
